@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, My Love | May 10 </title>
+
+    <!-- Libraries -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN OVERLAY -->
+<div id="login-overlay">
+    <div class="login-box">
+        <h2>Start the Celebration</h2>
+        <p>To enter, tell me: Where did we have our first date? Well not really a date but a hangout, hehe</p>
+        <input type="text" id="password-input" placeholder="Chai Place!" autocomplete="off">
+        <button id="unlock-btn">Unlock My Heart</button>
+        <p id="error-msg" class="hidden">Not quite! Try again, darling.</p>
+    </div>
+</div>
+
+<!-- MUSIC PLAYER -->
+<div class="music-player hidden" id="music-player">
+    <button id="play-pause-btn"><i class="fas fa-volume-mute"></i></button>
+    <div class="music-info">
+        <span class="music-label">Playing Our Song</span>
+        <div class="equalizer">
+            <span></span><span></span><span></span><span></span>
+        </div>
+    </div>
+    <audio id="bg-music" loop>
+        <source src="assets/Music.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+<!-- HERO SECTION -->
+<section id="hero" class="hidden">
+    <div id="tsparticles"></div>
+
+    <div class="hero-content">
+        <h1 class="typing-text">Happy Birthday!</h1>
+        <p class="subtitle">To the most beautiful soul...</p>
+        <p class="date-display">May 10, 2026</p>
+
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down bounce"></i>
+        </div>
+    </div>
+</section>
+
+<!-- TIMELINE -->
+<section id="timeline" class="hidden">
+    <h2 data-aos="fade-up">Our Journey Together</h2>
+
+    <div class="timeline-container">
+        <div class="memory-card left" data-aos="fade-right">
+            <div class="img-box">
+                <img src="assets/photo1.jpeg" alt="First Outing">
+            </div>
+            <div class="text-box">
+                <h3>One of the First Outing</h3>
+                <span class="date">22 October 2025</span>
+                <p>Got called Husband and wife by ur didi 🥰🥰</p>
+            </div>
+        </div>
+
+        <div class="memory-card right" data-aos="fade-left">
+            <div class="img-box">
+                <img src="assets/photo2.jpeg" alt="First Kiss">
+            </div>
+            <div class="text-box">
+                <h3>BADDIES</h3>
+                <span class="date">7 February 2025</span>
+                <p> This was the day of our first kiss!
+                  Image proof of we kissing before the kissing even happened!                
+
+</p>
+            </div>
+        </div>
+
+        <div class="memory-card left" data-aos="fade-right">
+            <div class="img-box">
+                <img src="assets/photo3.jpeg" alt="Silly Times">
+            </div>
+            <div class="text-box">
+                <h3>Hotties</h3>
+                <span class="date">09 January 2025</span>
+                <p>First mid-long ride and a beautiful view with my favourite girl!</p>
+            </div>
+        </div>
+
+        
+
+
+
+
+
+
+
+<div class="memory-card right" data-aos="fade-left">
+        <div class="img-box">
+        <img src="assets/photo4.jpeg" alt="Another Memory">
+        </div>
+        <div class="text-box">
+        <h3>Core Memory</h3>
+        <span class="date">06 February 2026</span>
+        <p>
+            Nothing big. Just us.
+            And somehow thats always been enough.
+            One of my favourite pic of us :)
+        </p>
+       </div></div>
+   </div>
+
+</div>
+
+
+<div class="memory-card left" data-aos="fade-right">
+        <div class="img-box">
+        <img src="assets/photo5.jpeg" alt="Another Beautiful Memory">
+        </div>
+        <div class="text-box">
+        <h3>Core Memory</h3>
+        <span class="date">07 February 2026</span>
+        <p>
+            On this day, Didi once again was late, because of this you had to suffer
+	    but atleast we got our pretty pics sweetheart haha       
+ </p>
+       </div></div>
+   </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+</section>
+
+<!-- GIFT SECTION -->
+<section id="gift-section" class="hidden">
+    <h2 data-aos="zoom-in">A Little Surprise</h2>
+    <p>Click the box to open your gift</p>
+
+    <div class="envelope-container">
+    <div class="envelope" id="envelope">
+        <div class="envelope-back"></div>
+        <div class="envelope-flap"></div>
+        <div class="envelope-text">
+            <p>Click to open 💌</p>
+        </div>
+    </div>
+</div>
+
+
+    <div id="letter" class="hidden-letter">
+        <div class="letter-content">
+            <h3>My Wish For You</h3>
+            <p>
+                Happy Birthday, My sweetheart. Thank you always for being in life
+ 		I really love you so much, you have been a blessing for me.
+		I love talking to you daily and every single day I keep falling in
+		love with you, I love making memories with you. Every single day 
+		with you feels so good with you my love and you are really an 
+		amazing person the way to take care of me, the way you ask me 
+		"aapnei khana khaya?" ya fir "aisa kya" I really adore that so so
+		much, I am forever grateful to have you my sweetheart. Wish I could've		
+		done more in real life but no worries will do after the exams so stay 
+		tuned! And please say yes to all the places I will take you in the 
+		monsoons I am sure you will love the places so much, I will always
+		take care of you and love you. <33
+
+
+
+
+                <br><br>
+                I love you endlessly.
+            </p>
+            <button id="celebrate-btn">Celebrate! 🎉</button>
+        </div>
+    </div>
+</section>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles/tsparticles.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+<!-- Your JS -->
+<script src="script.js"></script>
+</body>
+</html>
